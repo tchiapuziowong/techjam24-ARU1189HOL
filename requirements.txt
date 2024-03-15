@@ -1,0 +1,7 @@
+pyaoscx
+PyYAML
+requests
+tftpy
+urllib3
+Jinja2
+pycentral

@@ -1,0 +1,33 @@
+AGG1A-8325:
+  hostname: AGG1A-8325
+  mgmt_ip: '10.251.100.2'
+  mac_address: "90:20:c2:ba:08:00"
+  login_user: admin
+  login_pw: Aruba123!
+  template_file: ''
+  variable_file: ''
+  tftp_server: 10.231.100.200
+AGG1B-8325:
+  hostname: AGG1B-8325
+  mgmt_ip: '10.251.100.3'
+  mac_address: "90:20:c2:bb:f3:00"
+  login_user: admin
+  login_pw: Aruba123!
+  template_file: ''
+  variable_file: ''  
+ACC1A-6300:
+  hostname: ACC1A-6300
+  mgmt_ip: '10.251.100.4'
+  mac_address: "88:3a:30:92:85:c0"
+  login_user: admin
+  login_pw: Aruba123!
+  template_file: access_6300.j2
+  variable_file: ACC1A-6300.yaml
+ACC1B-6300:
+  hostname: ACC1B-6300
+  mgmt_ip: '10.251.100.5'
+  mac_address: "88:3a:30:92:f4:40"
+  login_user: admin
+  login_pw: Aruba123!
+  template_file: access_6300.j2
+  variable_file: ACC1B-6300.yaml

@@ -1,0 +1,9 @@
+hostname: ACC1A-6300
+mgmt_vlan_ip: '10.1.210.101'
+mgmt_vlan_ip_mask: '24'
+mgmt_vlan: '201'
+ntp_server: '10.231.100.220'
+dns_server: '10.231.100.220'
+mgmt_int_ip: '10.251.100.4'
+mgmt_int_gw: '10.251.100.220'
+role: access
