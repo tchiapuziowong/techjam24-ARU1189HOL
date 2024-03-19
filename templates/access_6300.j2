@@ -7,8 +7,6 @@ interface mgmt
 vlan 210
  name MGMT-VLAN
 vlan 211-212
-interface vlan 210
- ip address {{mgmt_vlan_ip}}/24
 interface lag 100
  no shutdown
  no routing
